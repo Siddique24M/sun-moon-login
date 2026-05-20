@@ -1,0 +1,12 @@
+@import "tailwindcss";
+
+
+@font-face {
+    font-family: 'ProductSans';
+    src: url('/src/assets/fonts/Product\ Sans\ Regular.ttf') format('truetype');
+}
+
+body {
+    margin: 0;
+    overflow: hidden; /* Prevents scrollbars during background transitions */
+}
