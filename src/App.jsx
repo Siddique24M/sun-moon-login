@@ -7,7 +7,7 @@ export default function SunMoonLoginPage() {
   // Background Styles separated for clean transition mapping
   const nightBackground = {
     backgroundImage: `url(/src/assets/images/RightBigMountainNight.png), url(/src/assets/images/moon.png), url(/src/assets/images/RightSmallMountainNight.png), url(/src/assets/images/LeftSmallMountainNight.png), url(/src/assets/images/SmallSun.png), url(/src/assets/images/leftBigMountainNight.png), url(/src/assets/images/space.png)`,
-    backgroundSize: '50%, 12%, 50%, 50%, 25%, 50%, 100% 100%',
+    backgroundSize: '50%, 15%, 50%, 50%, 25%, 50%, 100% 100%',
     backgroundPosition: '0% 105%, 2% 5%, 35% 105%, 65% 105%, 80% 120%, 100% 105%, 0% 0%',
     backgroundRepeat: 'no-repeat',
   };
@@ -24,7 +24,7 @@ export default function SunMoonLoginPage() {
       
       {/* Background Container */}
       <div 
-        className="absolute inset-0 z-0 transition-all duration-[3000ms] ease-in-out"
+        className="absolute inset-0 z-0 transition-all duration-4000 ease-in-out"
         style={isHovered ? dayBackground : nightBackground}
       />
 
