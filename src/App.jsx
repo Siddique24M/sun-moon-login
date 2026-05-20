@@ -7,7 +7,7 @@ export default function SunMoonLoginPage() {
   // Background Styles separated for clean transition mapping
   const nightBackground = {
     backgroundImage: `url(/src/assets/images/RightBigMountainNight.png), url(/src/assets/images/moon.png), url(/src/assets/images/RightSmallMountainNight.png), url(/src/assets/images/LeftSmallMountainNight.png), url(/src/assets/images/SmallSun.png), url(/src/assets/images/leftBigMountainNight.png), url(/src/assets/images/space.png)`,
-    backgroundSize: '50%, 18%, 50%, 50%, 25%, 50%, 100% 100%',
+    backgroundSize: '50%, 12%, 50%, 50%, 25%, 50%, 100% 100%',
     backgroundPosition: '0% 105%, 2% 5%, 35% 105%, 65% 105%, 80% 120%, 100% 105%, 0% 0%',
     backgroundRepeat: 'no-repeat',
   };
@@ -75,13 +75,13 @@ export default function SunMoonLoginPage() {
 
         {/* Social Login Icons */}
         <div className="flex h-[10%] w-4/5 items-center justify-evenly">
-          <span className="flex h-[70%] w-1/5 items-center justify-center rounded-[10px] bg-transparent text-white border-2 transition-colors duration-250 group-hover:border-black group-hover:bg-black">
+          <span className="flex h-[70%] w-1/5 items-center justify-center rounded-[10px] bg-transparent text-white border-2 transition-colors duration-250 group-hover:border-black group-hover:bg-transparent group-hover:text-black">
             <FaGoogle className="text-xl transition-colors duration-250" />
           </span>
-          <span className="flex h-[70%] w-1/5 items-center justify-center rounded-[10px] bg-transparent text-white border-2 transition-colors duration-250 group-hover:border-black group-hover:bg-black">
+          <span className="flex h-[70%] w-1/5 items-center justify-center rounded-[10px] bg-transparent text-white border-2 transition-colors duration-250 group-hover:border-black group-hover:bg-transparent group-hover:text-black ">
             <FaFacebook className="text-xl transition-colors duration-250" />
           </span>
-          <span className="flex h-[70%] w-1/5 items-center justify-center rounded-[10px] bg-transparent text-white border-2 transition-colors duration-250 group-hover:border-black group-hover:bg-black">
+          <span className="flex h-[70%] w-1/5 items-center justify-center rounded-[10px] bg-transparent text-white border-2 transition-colors duration-250 group-hover:border-black group-hover:bg-transparent group-hover:text-black ">
             <FaGithub className="text-xl transition-colors duration-250" />
           </span>
         </div>
